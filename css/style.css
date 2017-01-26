@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+	width: 1170px;
+	margin: 0px auto;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+.row {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+/* BUTTONS */
+.buttonsContainer{	
+	width: 80%;
+	height: 150px;
+}
+
+.buttonsGroup{	
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid rgba(0, 0, 255, 0.6);
+}
+
+.singleButton{
+	margin: 5px;
+}
+
+.formGroup {
+	margin: 5px;
+	padding:5px;
+	border: 1px dotted #aee;
+}
+
+/* DATA VIEW */
+.viewContainer{
+	width: 80%;
+}
+
+table#user-data {
+	border: 1px solid #000;
+	
+	/* show after loading data */
+	display: none;
+}
+
+table#user-data tr td{
+	padding: 5px 20px;
+}
+
+/* ALERTS */
+.splash {
+	width: 80%;
+	padding: 5px;
+	border: 2px solid #333;
+	
+	/* do not show empty */
+	display: none;
+}
+
+.splash .alert {
+	font-weight: 500;
+}
