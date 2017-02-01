@@ -20,7 +20,8 @@ body {
 /* BUTTONS */
 .buttonsContainer{	
 	width: 80%;
-	height: 150px;
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .buttonsGroup{	
@@ -38,6 +39,21 @@ body {
 	margin: 5px;
 	padding:5px;
 	border: 1px dotted #aee;
+}
+
+/* STATISTICS VIEW */
+.statisticsContainer{
+	width: 80%;
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.statGroup{	
+	min-height: 100px;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	border: 2px solid rgba(0, 255, 0, 0.6);
 }
 
 /* DATA VIEW */

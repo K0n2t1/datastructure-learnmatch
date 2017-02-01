@@ -1,7 +1,31 @@
+const DATASTRUCTURES = ['default', 'cost'];
+
 const NAMES = [
-               'Tom',
                'Anna',
+               'Benedikt',
+               'Chiara',
+               'Daniel',
+               'Erika',
+               'Felix',
+               'Gregor',
+               'Hanna',
+               'Inge',
+               'Julian',
+               'Karina',
+               'Ludwig',
+               'Melissa',
+               'Nico',
+               'Olga',
                'Peter',
-               'Melissa'
+               'Quirin',
+               'Roswitha',
+               'Sabrina',               
+               'Tom',
+               'Ulrike',
+               'Victor',
+               'Wendy',
+               'Xaver',
+               'Yessica',
+               'Zoltan'
                ];
 
